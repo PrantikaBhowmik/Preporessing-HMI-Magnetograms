@@ -1,7 +1,8 @@
 # Preporessing-HMI-Magnetograms
 Python scripts to pre-process HMI-SHARP magnetograms with all three magnetic field components (Bx, By and Bz) 
-when a list of SHARP regions is supplied (e.g. SHARPS.txt).
+when a list of SHARP regions is supplied (e.g. SHARPS.txt). Download all the Python scripts with the SHAPRs.txt file.
 
+Start with running prepare_data.py, followed by AR_cutout to complete processing the data
 
 The Python script "prepare_data.py" 
 downloads three components of HMI SHARP patches
