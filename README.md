@@ -2,7 +2,7 @@
 Python scripts to pre-process HMI-SHARP magnetograms with all three magnetic field components (Bx, By and Bz) 
 when a list of SHARP regions is supplied (e.g. SHARPS.txt). Download all the Python scripts with the SHAPRs.txt file.
 
-Start with running prepare_data.py, followed by AR_cutout to complete processing the data
+Start by running prepare_data.py, followed by AR_cutout.py, to complete the processing of the data.
 
 The Python script "prepare_data.py" 
 downloads three components of HMI SHARP patches
@@ -18,7 +18,7 @@ This script processes magnetograms to
  of a given magnetogram, and rotates it such that the tilt will become zero
 3. Add extra padding with zero field strength, such that the centroid of the magnetogram 
  coincides with the origin of the new coordinates
-4. These preprocessing are aimed for performing spectral decomposition of the magnetograms 
+4. These preprocessing are aimed at performing spectral decomposition of the magnetograms 
  (e.g., using Zernike polynomials)
 
 The Python script "util.py" has the necessary tools to run prepare_data.py and AR_cutout.py
